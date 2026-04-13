@@ -1,4 +1,11 @@
 {
+  "name": "talent-iq",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+=======
   "name": "remote-interview-platform",
   "version": "1.0.0",
   "main": "index.js",
@@ -13,9 +20,4 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sriram-moorthy/Talent-IQ/issues"
-  },
-  "homepage": "https://github.com/Sriram-moorthy/Talent-IQ#readme",
-  "description": ""
-}
+
