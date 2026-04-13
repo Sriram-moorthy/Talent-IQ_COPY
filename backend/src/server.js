@@ -4,6 +4,7 @@ import path from "path";
 import { ENV } from "./lib/env.js";
 import { connectDB } from "./lib/db.js";
 
+
 const app = express();
 
 const __dirname = path.resolve();
@@ -35,3 +36,4 @@ const startServer = async () => {
 };
 
 startServer();
+
