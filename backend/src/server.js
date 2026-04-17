@@ -15,7 +15,7 @@ const __dirname = path.resolve();
 app.use(express.json());
 app.use(cors({origin:ENV.CLIENT_URL,credentials:true}));
 // credentials:true meaning?? => server allows a browser to send cookies along with the request.
-app.use("api/inngest",serve({
+app.use("/api/inngest",serve({
   client : inngest,
   functions
 }));
